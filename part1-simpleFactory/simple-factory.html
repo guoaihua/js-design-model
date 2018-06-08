@@ -11,13 +11,9 @@
         <div class="two">12133</div>
     </div>
 <script src="./simple-factory.js"></script>
+    <script src="./singleton.js"></script>
     <script>
-        var lofinAlert = Popalert('alert');
-        lofinAlert.show();
-        var confirm = Popalert('confirm');
-        confirm.show();
-        var prompt = Popalert('prompt');
-        prompt.show();
+        console.log(Conf.get('COUNT'))
     </script>
 </body>
 </html>
